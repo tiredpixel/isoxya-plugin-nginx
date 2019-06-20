@@ -27,8 +27,7 @@ May you find peace, and help others to do likewise.
 
 We've tried to make this document clear and accessible. If you have any feedback
 about how we could improve it, or if there's any part of it you'd like to
-discuss or clarify, we'd love to hear from you (especially if your picture of a
-spider has 7 legs). Our contact details are as follows:
+discuss or clarify, we'd love to hear from you. Our contact details are:
 
 Pavouk OÜ | <https://www.pavouk.tech/> | <mailto:en@pavouk.tech>
 
