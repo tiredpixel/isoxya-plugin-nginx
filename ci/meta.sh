@@ -4,7 +4,7 @@ set -o pipefail
 src=$PWD/src
 meta=$PWD/meta
 
-branch_latest=remotes/origin/master
+branch_latest=master
 
 test -d "$meta" || meta=$(mktemp -d)
 #-------------------------------------------------------------------------------
