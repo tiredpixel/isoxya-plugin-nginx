@@ -1,0 +1,3 @@
+# Base
+/*.env
+/docker-compose.*.yml

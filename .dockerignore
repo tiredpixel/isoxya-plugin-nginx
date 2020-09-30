@@ -1,4 +1,8 @@
-*.yml
+# Base
 .*/
-README.md
-bin/
+Dockerfile
+docker-compose.yml
+
+# Concourse CI
+cache/
+image/

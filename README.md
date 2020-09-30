@@ -1,6 +1,6 @@
-# NGINX Test Upstream
+# NGINX test upstream
 
-[NGINX Test Upstream](https://github.com/pavouk-0/nginx-test-upstream) is a simple configuration for [NGINX](https://nginx.org/), logging body payloads. This is helpful for testing purposes, especially when developing APIs or proxies. A simple healthcheck using Curl is also added. This is not intended for use in production. [Docker images](https://hub.docker.com/r/pavouk0/nginx-test-upstream) are available.
+[NGINX test upstream](https://github.com/tiredpixel/nginx-test-upstream) is a simple packaged configuration for [NGINX](https://nginx.org/), for logging textual payloads such as JSON. This is helpful for testing purposes, especially when developing APIs or proxies. A simple healthcheck using Curl is also added. This project is only intended for development and testing, not for production.
 
 
 ## Usage
@@ -21,11 +21,11 @@ May you find peace, and help others to do likewise.
 
 ## Contact
 
-We've tried to make this document clear and accessible. If you have any feedback about how we could improve it, or if there's any part of it you'd like to discuss or clarify, we'd love to hear from you. Our contact details are:
+[tiredpixel.com](https://www.tiredpixel.com/) · [tp@tiredpixel.com](mailto:tp@tiredpixel.com)
 
-Pavouk OÜ | [https://www.pavouk.tech/](https://www.pavouk.tech/) | [en@pavouk.tech](mailto:en@pavouk.tech)
+LinkedIn: [in/nic-williams](https://www.linkedin.com/in/nic-williams/) · Twitter: [tiredpixel](https://twitter.com/tiredpixel) · GitHub: [tiredpixel](https://github.com/tiredpixel)
 
 
 ## Licence
 
-Copyright © 2019 [Pavouk OÜ](https://www.pavouk.tech/). It is free software, released under the BSD3 licence, and may be redistributed under the terms specified in `LICENSE`.
+Copyright © 2019-2020 [Nic Williams](https://www.tiredpixel.com/). It is free software, released under the BSD 3-Clause licence, and may be redistributed under the terms specified in `LICENSE`.
