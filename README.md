@@ -1,6 +1,6 @@
-# NGINX test upstream
+# NGINX Test Upstream
 
-[NGINX test upstream](https://github.com/tiredpixel/nginx-test-upstream) is a simple packaged configuration for [NGINX](https://nginx.org/), for logging textual payloads such as JSON. This is helpful for testing purposes, especially when developing APIs or proxies. A simple healthcheck using Curl is also added. This project is only intended for development and testing, not for production.
+[NGINX Test Upstream](https://github.com/tiredpixel/nginx-test-upstream) is a simple packaged configuration for [NGINX](https://nginx.org/), for logging textual payloads such as JSON. This is helpful for debugging purposes, especially when developing APIs or proxies. A simple healthcheck using Curl is also added. This project is only intended for development and testing, not for production.
 
 
 ## Usage
@@ -10,13 +10,21 @@ curl -XPUT -d'{"abc":123}' localhost
 ```
 
 ```txt
-127.0.0.1 -  [03/Jun/2019:16:21:25 +0000] "PUT / HTTP/1.1" 202 0 "" "curl/7.52.1" "" "{\"abc\":123}"
+127.0.0.1 -  [03/Jun/2019:16:21:25 +0000] "PUT / HTTP/1.1" 202 0 "" "curl/7.52.1" ""
+{"abc":123}
 ```
+
+
+## Images
+
+There is one image built from this repo:
+
+- [package](https://hub.docker.com/r/tiredpixel/tiredpixel-test-upstream) (`Dockerfile`): typically a latest tag is used (e.g. `latest`)
 
 
 ## Contact
 
-[tiredpixel.com](https://www.tiredpixel.com/) · [tp@tiredpixel.com](mailto:tp@tiredpixel.com)
+[tp@tiredpixel.com](mailto:tp@tiredpixel.com) · [tiredpixel.com](https://www.tiredpixel.com/)
 
 LinkedIn: [in/nic-williams](https://www.linkedin.com/in/nic-williams/) · GitHub: [tiredpixel](https://github.com/tiredpixel)
 
