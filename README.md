@@ -15,13 +15,6 @@ curl -XPUT -d'{"abc":123}' localhost
 ```
 
 
-## Images
-
-There is one image built from this repo:
-
-- [package](https://hub.docker.com/r/tiredpixel/tiredpixel-test-upstream) (`Dockerfile`): typically a latest tag is used (e.g. `latest`)
-
-
 ## Contact
 
 [tp@tiredpixel.com](mailto:tp@tiredpixel.com) · [tiredpixel.com](https://www.tiredpixel.com/)
