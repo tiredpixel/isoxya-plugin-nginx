@@ -1,6 +1,6 @@
 #===============================================================================
 # FROMFREEZE docker.io/library/nginx:latest
-FROM docker.io/library/nginx@sha256:1c70a669bbf07f9862f269162d776c35144b116938d1becb4e4676270cff8f75
+FROM docker.io/library/nginx@sha256:3f13b4376446cf92b0cb9a5c46ba75d57c41f627c4edb8b635fa47386ea29e20
 #-------------------------------------------------------------------------------
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
