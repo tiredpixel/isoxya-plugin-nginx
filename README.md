@@ -1,4 +1,4 @@
-# NGINX Test Upstream
+# NGINX Test Upstream plugin
 
 NGINX Test Upstream plugin is a simple packaged configuration for [NGINX](https://nginx.org/), for logging textual payloads such as JSON. This is helpful for developing or extending plugins for [Isoxya](https://www.isoxya.com/) web crawler.
 
