@@ -1,6 +1,9 @@
 # NGINX Test Upstream
 
-[NGINX Test Upstream](https://github.com/tiredpixel/nginx-test-upstream) is a simple packaged configuration for [NGINX](https://nginx.org/), for logging textual payloads such as JSON. This is helpful for debugging purposes, especially when developing APIs or proxies. A simple healthcheck using Curl is also added. This project is only intended for development and testing, not for production.
+NGINX Test Upstream plugin is a simple packaged configuration for [NGINX](https://nginx.org/), for logging textual payloads such as JSON. This is helpful for developing or extending plugins for [Isoxya](https://www.isoxya.com/) web crawler.
+
+https://hub.docker.com/r/tiredpixel/nginx-test-upstream  
+https://github.com/tiredpixel/nginx-test-upstream  
 
 
 ## Usage
@@ -17,11 +20,11 @@ curl -XPUT -d'{"abc":123}' localhost
 
 ## Contact
 
-[tp@tiredpixel.com](mailto:tp@tiredpixel.com) · [tiredpixel.com](https://www.tiredpixel.com/)
+[tp@tiredpixel.com](mailto:tp@tiredpixel.com) · [www.tiredpixel.com](https://www.tiredpixel.com/) · [www.isoxya.com](https://www.isoxya.com/)
 
-LinkedIn: [in/nic-williams](https://www.linkedin.com/in/nic-williams/) · GitHub: [tiredpixel](https://github.com/tiredpixel)
+LinkedIn: [in/nic-williams](https://www.linkedin.com/in/nic-williams/) · Twitter: [tiredpixel](https://twitter.com/tiredpixel/) · GitHub: [tiredpixel](https://github.com/tiredpixel)
 
 
 ## Licence
 
-Copyright © 2019-2021 [Nic Williams](https://www.tiredpixel.com/). It is free software, released under the BSD 3-Clause licence, and may be redistributed under the terms specified in `LICENSE`.
+Copyright © 2021 [Nic Williams](https://www.tiredpixel.com/). It is free software, released under the BSD 3-Clause licence, and may be redistributed under the terms specified in `LICENSE`.
