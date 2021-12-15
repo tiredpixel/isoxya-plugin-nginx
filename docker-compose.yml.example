@@ -1,4 +1,11 @@
 version: "2.4"
 services:
-  web:
-    image: docker.io/tiredpixel/nginx-test-upstream:latest
+  plugin_nginx:
+    image: docker.io/isoxya/isoxya-plugin-nginx:latest
+    networks:
+      streamer:
+        aliases:
+          - isoxya-plugin-nginx.localhost
+    restart: on-failure
+networks:
+  streamer: {}
