@@ -8,4 +8,4 @@ RUN apt-get update && \
 #-------------------------------------------------------------------------------
 COPY src/ /etc/nginx/
 #-------------------------------------------------------------------------------
-HEALTHCHECK CMD curl -fs localhost:80 || false
+HEALTHCHECK CMD curl -fs http://localhost || false
