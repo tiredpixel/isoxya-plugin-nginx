@@ -9,5 +9,3 @@ RUN apt-get update && \
 COPY src/ /etc/nginx/
 #-------------------------------------------------------------------------------
 HEALTHCHECK CMD curl -fs http://localhost || false
-
-LABEL org.opencontainers.image.source https://github.com/isoxya/isoxya-plugin-nginx
