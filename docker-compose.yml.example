@@ -1,7 +1,7 @@
 # vim: set ft=yaml:
 version: '2.4'
 services:
-  plugin_nginx:
+  plugin-nginx:
     build: .
     #image: docker.io/isoxya/isoxya-plugin-nginx:latest
     networks:
