@@ -31,7 +31,7 @@ cp .env.example .env
 Boot the stack:
 
 ```sh
-docker-compose up
+docker compose up
 ```
 
 

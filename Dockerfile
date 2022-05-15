@@ -1,4 +1,4 @@
-FROM docker.io/library/nginx@sha256:6d701d83f2a1bb99efb7e6a60a1e4ba6c495bc5106c91709b0560d13a9bf8fb6
+FROM docker.io/library/nginx@sha256:2c72b42c3679c1c819d46296c4e79e69b2616fa28bea92e61d358980e18c9751
 
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
